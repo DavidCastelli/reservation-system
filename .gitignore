@@ -19,6 +19,12 @@ target/
 # Log file
 *.log
 
+# Env file
+.env
+
+# Liquibase properties
+src/main/resources/db/liquibase.properties
+
 # BlueJ files
 *.ctxt
 
