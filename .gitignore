@@ -44,6 +44,11 @@ src/main/resources/db/liquibase.properties
 hs_err_pid*
 replay_pid*
 
+# Extra project files
+project_notes.txt
+reservation_system_er.drawio
+.$reservation_system_er.drawio.bkp
+
 ### InteliJ IDEA ###
 .idea
 *.iws
