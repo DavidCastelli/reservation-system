@@ -4,6 +4,7 @@ import static org.assertj.core.api.Assertions.*;
 import static org.mockito.Mockito.*;
 
 import com.github.davidcastelli.reservation_system.common.exception.GroupNotFoundException;
+import com.github.davidcastelli.reservation_system.common.model.Group;
 import java.math.BigDecimal;
 import java.util.List;
 import java.util.Optional;

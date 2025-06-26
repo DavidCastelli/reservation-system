@@ -1,5 +1,6 @@
 package com.github.davidcastelli.reservation_system.group;
 
+import com.github.davidcastelli.reservation_system.common.model.Group;
 import org.springframework.stereotype.Component;
 
 /** Mapper used to convert a group request to a group and a group to a group DTO. */

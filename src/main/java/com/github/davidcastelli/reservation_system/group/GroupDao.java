@@ -1,5 +1,6 @@
 package com.github.davidcastelli.reservation_system.group;
 
+import com.github.davidcastelli.reservation_system.common.model.Group;
 import java.util.List;
 import java.util.Optional;
 import org.springframework.jdbc.core.RowMapper;

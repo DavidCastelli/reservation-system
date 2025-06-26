@@ -4,6 +4,7 @@ import static io.restassured.RestAssured.*;
 import static org.assertj.core.api.Assertions.*;
 import static org.hamcrest.Matchers.*;
 
+import com.github.davidcastelli.reservation_system.common.model.Group;
 import io.restassured.RestAssured;
 import io.restassured.http.ContentType;
 import java.math.BigDecimal;

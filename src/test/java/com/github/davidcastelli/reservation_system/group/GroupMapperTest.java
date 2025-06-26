@@ -2,6 +2,7 @@ package com.github.davidcastelli.reservation_system.group;
 
 import static org.assertj.core.api.Assertions.*;
 
+import com.github.davidcastelli.reservation_system.common.model.Group;
 import java.math.BigDecimal;
 import org.jspecify.annotations.NullUnmarked;
 import org.junit.jupiter.api.Test;

@@ -5,6 +5,7 @@ import static org.mockito.Mockito.*;
 
 import com.fasterxml.jackson.databind.ObjectMapper;
 import com.github.davidcastelli.reservation_system.common.exception.GroupNotFoundException;
+import com.github.davidcastelli.reservation_system.common.model.Group;
 import java.math.BigDecimal;
 import java.util.Collections;
 import java.util.List;

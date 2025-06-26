@@ -1,5 +1,6 @@
 package com.github.davidcastelli.reservation_system.group;
 
+import com.github.davidcastelli.reservation_system.common.model.Group;
 import io.swagger.v3.oas.annotations.headers.Header;
 import io.swagger.v3.oas.annotations.media.ArraySchema;
 import io.swagger.v3.oas.annotations.media.Content;

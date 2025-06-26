@@ -1,6 +1,7 @@
 package com.github.davidcastelli.reservation_system.group;
 
 import com.github.davidcastelli.reservation_system.common.exception.GroupNotFoundException;
+import com.github.davidcastelli.reservation_system.common.model.Group;
 import java.util.List;
 import org.springframework.stereotype.Service;
 

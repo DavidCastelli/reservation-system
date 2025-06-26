@@ -1,4 +1,4 @@
-package com.github.davidcastelli.reservation_system.group;
+package com.github.davidcastelli.reservation_system.common.model;
 
 import static org.assertj.core.api.Assertions.*;
 

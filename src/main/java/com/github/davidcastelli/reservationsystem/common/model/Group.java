@@ -1,4 +1,4 @@
-package com.github.davidcastelli.reservation_system.group;
+package com.github.davidcastelli.reservationsystem.common.model;
 
 import java.math.BigDecimal;
 
@@ -17,5 +17,5 @@ import java.math.BigDecimal;
  * @param admissionPrice The admission price.
  * @param startInterval The start interval.
  */
-record Group(
+public record Group(
     long groupId, int minPeople, int maxPeople, BigDecimal admissionPrice, int startInterval) {}
