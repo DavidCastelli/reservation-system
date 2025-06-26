@@ -1,6 +1,5 @@
 package com.github.davidcastelli.reservation_system.group;
 
-import io.swagger.v3.oas.annotations.media.Schema;
 import jakarta.validation.constraints.*;
 import java.math.BigDecimal;
 
@@ -16,8 +15,7 @@ import java.math.BigDecimal;
 @ValidGroupSize
 public record GroupRequest( // Has to be public because it is exposed by GroupSizeValidator
     long groupId,
-    @Schema() @Positive(message = "The minimum number of people must be greater than 0")
-        int minPeople,
+    @Positive(message = "The minimum number of people must be greater than 0") int minPeople,
     @Positive(message = "The maximum number of people must be greater than 0") int maxPeople,
     @NotNull(message = "The admission price must not be null")
         @PositiveOrZero(message = "The admission price must be zero or greater")
