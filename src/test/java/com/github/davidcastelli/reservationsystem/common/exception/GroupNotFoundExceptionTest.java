@@ -10,7 +10,7 @@ class GroupNotFoundExceptionTest {
 
   @Test
   void givenGroupNotFoundException_whenGetMessage_thenReturnCorrectMessage() {
-    GroupNotFoundException groupNotFoundException = new GroupNotFoundException(1);
+    GroupNotFoundException groupNotFoundException = new GroupNotFoundException(1L);
 
     String message = groupNotFoundException.getMessage();
 
